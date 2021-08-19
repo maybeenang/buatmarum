@@ -10,7 +10,7 @@ function time() {
   var n = d.getHours();
   console.log(n);
   if(n >= 0 && n < 5){
-    return "Tengah malem"
+    return "Malem"
   } else if (n >= 5 && n <= 10) {
     return "Pagi"
   } else if (n >= 10 && n <= 15) {
