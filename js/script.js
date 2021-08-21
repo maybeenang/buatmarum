@@ -1,5 +1,5 @@
 
-let doi = "Devita";
+let doi = "Uci";
 
 let footer = document.getElementById("credit");
 footer.innerHTML = doi;
