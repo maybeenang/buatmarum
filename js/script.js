@@ -1,5 +1,5 @@
 
-let doi = "Uci";
+let doi = "Revi";
 
 let footer = document.getElementById("credit");
 footer.innerHTML = doi;
