@@ -88,7 +88,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
                               input: 'range',
                               showCancelButton: false,
                             }).then((result) => {
-                              Swal.fire('Cieee', 'Udah jadi mantan tapi masi cayang wkwk', 'success').then((result) => {
+                              Swal.fire('Cieee', 'hehehehehehe cayang bgt ciii', 'success').then((result) => {
                                 Swal.fire("Bye bye bi acuu, Aku kangen ^^").then((result) => {
                                   selesai()
                                 });
