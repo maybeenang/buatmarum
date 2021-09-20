@@ -1,5 +1,5 @@
 
-let doi = "Oca";
+let doi = "Lanzy";
 
 let footer = document.getElementById("credit");
 footer.innerHTML = doi;
@@ -34,7 +34,7 @@ function selesai() {
 
 document.querySelector(".tombol").addEventListener('click', function () {
   Swal.fire({
-    title: 'Hai bi!',
+    title: 'Hai zy!',
     html: `Selamat ${time()}, Kamu udah makan blom?`,
     timer: 2500,
     timerProgressBar: true,
@@ -74,29 +74,29 @@ document.querySelector(".tombol").addEventListener('click', function () {
                                 'error'
                       ).then((result) => {
                         Swal.fire({
-                          title: 'Oh iya aku mau nanya',
-                          text: 'Kamu sayang aku gak?',
+                          title: 'Oh iya aku mau ngomong',
+                          text: 'Boleh gak?',
                           showDenyButton: true,
-                          confirmButtonText: `Sayang`,
+                          confirmButtonText: `Boleh`,
                           denyButtonText: `Nggak`,
                         }).then((result) => {
                           /* Read more about isConfirmed, isDenied below */
                           if (result.isConfirmed) {
                             Swal.fire({
-                              title: 'Sayangnya seberapa ciii',
-                              icon: 'question',
-                              input: 'range',
+                              title: 'kiko enak tau',
+                              icon: '',
+                              input: '',
                               showCancelButton: false,
                             }).then((result) => {
-                              Swal.fire('Cieee', 'hehehehehehe cayang bgt ciii', 'success').then((result) => {
-                                Swal.fire("Bye bye bi acuu, Aku kangen ^^").then((result) => {
+                              Swal.fire('wkwkw', 'kaburrrr', 'success').then((result) => {
+                                Swal.fire("Bye bye").then((result) => {
                                   selesai()
                                 });
                               })
                             })
                           } else if (result.isDenied) {
-                            Swal.fire('Oh okedeh kalo dah ga sayang :(').then((result) => {
-                              Swal.fire("See ya! Aku kangen ^^").then((result) => {
+                            Swal.fire('Oh okedeh kalo dah ga boleh').then((result) => {
+                              Swal.fire("bye zyy").then((result) => {
                                 selesai()
                               });
                             })
