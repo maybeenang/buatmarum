@@ -1,5 +1,5 @@
 
-let doi = "Lanzy";
+let doi = "Arum";
 
 let footer = document.getElementById("credit");
 footer.innerHTML = doi;
@@ -34,7 +34,7 @@ function selesai() {
 
 document.querySelector(".tombol").addEventListener('click', function () {
   Swal.fire({
-    title: 'Hai zy!',
+    title: 'Hai rum!',
     html: `Selamat ${time()}, Kamu udah makan blom?`,
     timer: 2500,
     timerProgressBar: true,
