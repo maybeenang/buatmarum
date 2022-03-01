@@ -96,7 +96,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
                             })
                           } else if (result.isDenied) {
                             Swal.fire('Oh okedeh kalo dah ga boleh').then((result) => {
-                              Swal.fire("bye zyy").then((result) => {
+                              Swal.fire("byeee ").then((result) => {
                                 selesai()
                               });
                             })
